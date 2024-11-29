@@ -9,8 +9,5 @@ We have created a ‘BiLSTM’ class with two LSTMs, one for the target and anot
 ## LSTM
 https://github.com/user-attachments/assets/7a28030b-dc93-49bd-80cf-66a9f8fda519
 
-## One-directional LSTMs
-https://github.com/user-attachments/assets/c1f2a888-3ffd-4b31-88a9-1731b96a39f5
-
 ## Conditional Encoding of BiLSTMs
 ![Screenshot (4036)](https://github.com/user-attachments/assets/2daceede-d535-4664-863b-72fd697e3979)
