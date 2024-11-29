@@ -7,10 +7,10 @@ We have converted our output label from categorical data to numerical. Then, we 
 We have created a ‘BiLSTM’ class with two LSTMs, one for the target and another one for the tweet. We have passed input targets to the LSTM for the target with initial hidden and cell states initialized to zero, and after all the targets have been passed, we have obtained the final hidden and cell states as ‘ht’ and ‘ct’ respectively. We have passed this obtained cell state ‘ct’ as the initial cell state to the LSTM for the tweet. This is called Conditional Encoding. After all the tweets have been passed, we have obtained the final hidden and cell states as ‘hT’ and ‘cT’ respectively. We have passed this obtained hidden state through a linear layer and then through a Softmax, as we have to perform multiclass classification. We have used the Cross Entropy loss and the Adam optimizer. We have trained our model with the batch size set to 22, the learning rate set to 1e-5, and the number of epochs set to 11. Finally, on testing, we have achieved an Accuracy and F1-score of around 35%. The low score has been primarily due to using a limited subset of the original dataset used in reference paper, as the complete dataset has not been publicly accessible.
 
 ## LSTM
-https://github.com/user-attachments/assets/0acab031-60d0-422f-b5ef-329016d21465
+https://github.com/user-attachments/assets/7a28030b-dc93-49bd-80cf-66a9f8fda519
 
 ## One-directional LSTMs
-https://github.com/user-attachments/assets/3fb42120-489b-4e2e-95a3-f9a039daa544
+https://github.com/user-attachments/assets/c1f2a888-3ffd-4b31-88a9-1731b96a39f5
 
 ## Conditional Encoding of BiLSTMs
 ![Screenshot (4036)](https://github.com/user-attachments/assets/2daceede-d535-4664-863b-72fd697e3979)
